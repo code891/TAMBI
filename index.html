@@ -137,17 +137,17 @@
                 }, 1000);
                 
             } else if (clickCount === 3) {
-                // Третий клик - только фотка без текста
+                
                 centerPhoto.classList.add('show');
                 
-                // Добавляем эффект тряски карточке
+                
                 document.getElementById('special-card').classList.add('shake');
                 
                 setTimeout(() => {
                     centerPhoto.classList.remove('show');
-                    // Сбрасываем счетчик после показа фотки
+                    
                     clickCount = 0;
-                }, 1000);
+                }, 3000);
             }
         }
     </script>
