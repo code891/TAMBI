@@ -125,7 +125,7 @@
                 
                 setTimeout(() => {
                     centerMessage.classList.remove('show');
-                }, 3000);
+                }, 1000);
                 
             } else if (clickCount === 2) {
                 // Второй клик - только текст
@@ -134,7 +134,7 @@
                 
                 setTimeout(() => {
                     centerMessage.classList.remove('show');
-                }, 3000);
+                }, 1000);
                 
             } else if (clickCount === 3) {
                 // Третий клик - только фотка без текста
@@ -147,7 +147,7 @@
                     centerPhoto.classList.remove('show');
                     // Сбрасываем счетчик после показа фотки
                     clickCount = 0;
-                }, 3000);
+                }, 1000);
             }
         }
     </script>
